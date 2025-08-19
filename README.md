@@ -1,7 +1,7 @@
 # Chuka Okoye CS Tech Submission
 
 ## How to run
-- Have all dependencies synced in the libs.versions.toml and build.gradle.kts file.
+- Have all dependencies synced in the `libs.versions.toml` and `build.gradle.kts` file.
 - Click RUN
 
 ## Tech used
