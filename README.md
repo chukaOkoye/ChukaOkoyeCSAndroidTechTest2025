@@ -3,7 +3,7 @@
 ## How to run
 - Have all dependencies synced in the `libs.versions.toml` and `build.gradle.kts` file.
 - Click RUN
-- For tests: navigate to test folder, right-click files and click "Run `filename`"
+- For tests: navigate to test folder, right-click files and click "Run `test filename`"
 
 ## Tech used
 - Kotlin/Jetpack Compose
