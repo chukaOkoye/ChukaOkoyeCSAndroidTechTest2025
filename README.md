@@ -15,10 +15,10 @@
 ## My Approach
 - Built this project using the MVVM architecture pattern and using Hilt for dependency injection, to promote separation of concerns, testability and scalability.
 - **Model** - Contains data models (CreditScore, CreditReportInfo) and handles data operations through a Repository abstraction.
-- **ViewModel** - CreditScoreViewModel manages UI state, business logic, and interacts with the repository. It exposes state as StateFlow for Compose to observe.
+- **ViewModel** - CreditScoreViewModel manages UI state, business logic, and interacts with the repository. It exposes the state as StateFlow for Compose to observe.
 - **View (UI)** - Composables like MainScreen, ScoreScreen, and ErrorScreen render UI based on the current uiState. Used Jetpack Compose Animation to animate the score progress line to make it dynamic once loaded.
 - Also includes navigation to dynamically switch between UI states such as Loading, Error, and Success using Jetpack Compose Navigation, allowing for a clean separation of concerns and improved user experience.
-- Decided to use a data mapper to determine the colour of the UI credit score and progress line depending on the value for cleaner UI logic as apposed to calculating in the viewmodel.
+- Decided to use a data mapper to determine the colour of the UI credit score and progress line depending on the value for cleaner UI logic as opposed to calculating in the view model.
 - Both the repository and the viewmodel are tested using JUnit and Mockito to confirm that the code is working correctly.
 
 
@@ -28,7 +28,7 @@
 - Potential database implementation to cache and store the responses to still work whilst offline.
 
 ## Screenshot
-<img src="https://imgur.com/a/Qe88u4U" width="300" alt="screenshot">
+<img width="489" height="821" alt="Screenshot 2025-08-19 at 14 23 09" src="https://github.com/user-attachments/assets/6797e5a5-a376-41f0-8f0f-e339e9b6ef4e" />
 
 ## App Structure
 
