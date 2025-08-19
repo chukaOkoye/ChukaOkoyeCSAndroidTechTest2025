@@ -1,5 +1,6 @@
-package com.example.chukaokoyecsandroidtechtest2025
+package com.example.chukaokoyecsandroidtechtest2025.repository
 
+import com.example.chukaokoyecsandroidtechtest2025.CoroutineTestRule
 import com.example.chukaokoyecsandroidtechtest2025.data.api.ApiService
 import com.example.chukaokoyecsandroidtechtest2025.data.repository.CreditScoreRepositoryImpl
 import com.example.chukaokoyecsandroidtechtest2025.support.MockedScores

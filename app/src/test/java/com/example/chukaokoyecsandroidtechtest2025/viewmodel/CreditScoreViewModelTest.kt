@@ -1,5 +1,6 @@
-package com.example.chukaokoyecsandroidtechtest2025
+package com.example.chukaokoyecsandroidtechtest2025.viewmodel
 
+import com.example.chukaokoyecsandroidtechtest2025.CoroutineTestRule
 import com.example.chukaokoyecsandroidtechtest2025.data.repository.CreditScoreRepositoryImpl
 import com.example.chukaokoyecsandroidtechtest2025.ui.model.CreditScoreUIState
 import com.example.chukaokoyecsandroidtechtest2025.support.MockedScores.mockCreditScore
