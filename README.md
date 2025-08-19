@@ -1,6 +1,7 @@
+# Chuka Okoye CS Tech Submission
 
 ## How to run
-- Have all dependencies up-to-date in the libs.versions.toml and build.gradle.kts file.
+- Have all dependencies synced in the libs.versions.toml and build.gradle.kts file.
 - Click RUN
 
 ## Tech used
@@ -31,25 +32,26 @@
 <img width="489" height="821" alt="Screenshot 2025-08-19 at 14 23 09" src="https://github.com/user-attachments/assets/6797e5a5-a376-41f0-8f0f-e339e9b6ef4e" />
 
 ## App Structure
-
+```sh
 App
 │
 ├── Data Layer
-│   ├── api/           --> Retrofit API interface (e.g. ApiService)
-│   ├── model/         --> Data models / DTOs (e.g. CreditScore)
-│   └── repository/    --> Repository implementation (e.g. CreditScoreRepositoryImpl)
+│   ├── api/ --> Retrofit API interface (e.g. ApiService)
+│   ├── model/ --> Data models / DTOs (e.g. CreditScore)
+│   └── repository/ --> Repository implementation (e.g. CreditScoreRepositoryImpl)
 │
 ├── DI
-│   └── app module/ -->  Hilt dependency injection base for Application
+│   └── app module/ --> Hilt dependency injection base for Application
 |
 ├── Domain Layer
 │   └── repository/ --> Business logic (if using Clean Architecture)
 |
 └── UI Layer
-│   └── screens/    --> Composables for main screen, error screen and loading screen
-│   ├── mapper/    --> Data mapper for transforming objects (e.g. CreditScoreMapper)
-│   ├── model/    --> UI States and model (e.g. CreditScoreUIState)
-│   ├── viewmodel/    --> ViewModel for CreditScoreViewModel
-│   ├── nav/           --> Navigation host and routes
+│   └── screens/ --> Composables for main screen, error screen and loading screen
+│   ├── mapper/ --> Data mapper for transforming objects (e.g. CreditScoreMapper)
+│   ├── model/ --> UI States and model (e.g. CreditScoreUIState)
+│   ├── viewmodel/ --> ViewModel for CreditScoreViewModel
+│   ├── nav/ --> Navigation host and routes
 |
-└── MainActivity.kt   --> Entry point of the app
+└── MainActivity.kt --> Entry point of the app
+```
