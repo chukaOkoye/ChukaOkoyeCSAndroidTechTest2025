@@ -41,7 +41,10 @@ fun MainNavHost(viewModel: CreditScoreViewModel) {
         composable("loading") { LoadingScreen() }
         composable("error") {
             val state = uiState as? CreditScoreUIState.Error
-            ErrorScreen(message = state?.message ?: "Unknown error")
+            ErrorScreen(
+                message = state?.message ?: "Unknown error",
+                onRetry = { viewModel.fetchCreditScore() }
+            )
         }
         composable("score") {
             val state = uiState as? CreditScoreUIState.Success
